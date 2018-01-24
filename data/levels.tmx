@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<levels levelsNumber = "4" >  
+	<level1 landscape="data/StaticSprites/landscape.png" floor="data/StaticSprites/floor.png" acceleration="0.2" bubbles = "1" blocks = "2">
+	  <block x="200" y="200" sizeX="120" sizeY="20"/>
+	  <block x="426" y="300" sizeX="120" sizeY="20"/>
+	</level1>
+	<level2 landscape="data/StaticSprites/landscape2.png" floor="data/StaticSprites/blockWood.png" acceleration="0" bubbles = "2" blocks = "3">
+	  <block x="106" y="200" sizeX="120" sizeY="20"/>
+	  <block x="320" y="300" sizeX="120" sizeY="20"/>
+	  <block x="530" y="200" sizeX="120" sizeY="20"/>
+	</level2>
+	<level3 landscape="data/StaticSprites/landscape4.png" floor="data/StaticSprites/blockRock.png" acceleration="0.2" bubbles = "2" blocks = "4">
+	  <block x="106" y="200" sizeX="120" sizeY="20"/>
+	  <block x="212" y="300" sizeX="120" sizeY="20"/>
+	  <block x="424" y="300" sizeX="120" sizeY="20"/>
+	  <block x="530" y="200" sizeX="120" sizeY="20"/>
+	</level3>
+	<level4 landscape="data/StaticSprites/landscape3.png" floor="data/StaticSprites/blockRock.png" acceleration="0" bubbles = "2" blocks = "4">
+	 <block x="106" y="300" sizeX="120" sizeY="20"/>
+	 <block x="212" y="200" sizeX="120" sizeY="20"/>
+	 <block x="424" y="200" sizeX="120" sizeY="20"/>
+	 <block x="530" y="300" sizeX="120" sizeY="20"/>
+	</level4>
+</levels>  

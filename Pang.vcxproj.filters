@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Src\Entities">
+      <UniqueIdentifier>{8aa00aee-e08a-4818-a065-78432c9dae44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game">
+      <UniqueIdentifier>{d0fa96f3-0d10-4379-a1cf-c0714548bbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Modes">
+      <UniqueIdentifier>{719242cc-6f4f-430a-99e7-c70a1262173e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Manager">
+      <UniqueIdentifier>{899dfa8a-c7ac-4fca-8372-17609a58aba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\Entities">
+      <UniqueIdentifier>{c4f3374c-9bd7-48ff-bea2-f55578001e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Game">
+      <UniqueIdentifier>{d337341c-8a4c-4bcb-9e61-5253a1a8d235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Modes">
+      <UniqueIdentifier>{0d8152e8-3b06-4db4-b64b-453baa90e0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Manager">
+      <UniqueIdentifier>{5fac5f3c-b641-446c-b250-7a99ccb3ccf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sys.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicMotor.h">
+      <Filter>Include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeGame.h">
+      <Filter>Include\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeApplication.h">
+      <Filter>Include\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeGameOver.h">
+      <Filter>Include\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerApp.h">
+      <Filter>Include\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Include\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Include\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>Include\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Shuriken.h">
+      <Filter>Include\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Include\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Include\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ModePause.h">
+      <Filter>Include\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeStart.h">
+      <Filter>Include\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeNext.h">
+      <Filter>Include\Modes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_win.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicMotor.cpp">
+      <Filter>Src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeApplication.cpp">
+      <Filter>Src\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeGame.cpp">
+      <Filter>Src\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeGameOver.cpp">
+      <Filter>Src\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerApp.cpp">
+      <Filter>Src\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>Src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Src\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shuriken.cpp">
+      <Filter>Src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ModePause.cpp">
+      <Filter>Src\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeStart.cpp">
+      <Filter>Src\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeNext.cpp">
+      <Filter>Src\Modes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
